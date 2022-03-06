@@ -1,6 +1,7 @@
 function Main {
     Install-Chocolatey
     
+    choco install sharex -y
     choco install microsoft-windows-terminal -y
     choco install git -y
     choco install vscode --version 1.64.2 -y
